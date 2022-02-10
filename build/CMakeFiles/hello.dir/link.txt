@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/hello.dir/hello_world.cpp.o CMakeFiles/hello.dir/src/Figura.cpp.o CMakeFiles/hello.dir/src/Dreptunghi.cpp.o CMakeFiles/hello.dir/src/Cerc.cpp.o CMakeFiles/hello.dir/src/Controller.cpp.o -o hello 
