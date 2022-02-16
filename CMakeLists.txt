@@ -6,7 +6,11 @@ project(hello VERSION 0.0.1)
 
 
 
-add_executable(hello hello_world.cpp src/Figura.cpp src/Dreptunghi.cpp src/Cerc.cpp  src/Controller.cpp)
-target_include_directories(hello PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+add_library(MyConan hello_world.cpp src/Figura.cpp src/Dreptunghi.cpp src/Cerc.cpp  src/Controller.cpp)
+
+target_include_directories(MyConan PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+install(TARGETS MyConan DESTINATION lib)
+#install(FILES MathFunctions.h DESTINATION include)
 
 
